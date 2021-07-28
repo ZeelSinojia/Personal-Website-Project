@@ -29,13 +29,16 @@ export default function Skills() {
                     </h2>
                 </header>
                 <p>
-                    Since beginning my journey as a developer 4 years ago, I've done projects, worked in a multinational company, and collabrated with talented people to create various things. 
+                    Since beginning my journey as a developer 4 years ago, I've done projects, worked in a multinational company, and collaborated with talented people to create various things. 
                 </p>
                 <p>
                     I create solutions to the problem that are fast, easy to use, and built with best practices. The main area of my expertise is back-end development, Spring Boot, Django, REST APIs, and SQL.
                 </p>
                 <p>
                     I also have experience with front-end development with knowledge of HTML, CSS, and React JS.
+                </p>
+                <p>
+                    I have participated in various hackathons and have been a member of Google DSC Marwadi Education Foundation.
                 </p>
                 <p>
                     Visit my&nbsp;
@@ -51,25 +54,25 @@ export default function Skills() {
             </div>
             <div className="skills-graphics">
                 <div className="chart">
-                    <h2>Front-end</h2>
+                    <h2>Django</h2>
                     <footer>
-                    <div style={{ backgroundColor:`cyan`, width:`90%` }}></div>
+                    <div style={{ backgroundColor:`cyan`, width:`70%` }}></div>
                     </footer>
                 </div>
                 <div className="chart">
-                    <h2>Back-end</h2>
+                    <h2>Spring Boot</h2>
                     <footer>
-                    <div style={{ backgroundColor:`red`, width:`70%` }}></div>
+                    <div style={{ backgroundColor:`red`, width:`80%` }}></div>
+                    </footer>
+                </div>
+                <div className="chart">
+                    <h2>MySQL</h2>
+                    <footer>
+                    <div style={{ backgroundColor:`purple`, width:`90%` }}></div>
                     </footer>
                 </div>
                 <div className="chart">
                     <h2>React</h2>
-                    <footer>
-                    <div style={{ backgroundColor:`purple`, width:`50%` }}></div>
-                    </footer>
-                </div>
-                <div className="chart">
-                    <h2>Angular</h2>
                     <footer>
                     <div style={{ backgroundColor:`cyan`, width:`30%` }}></div>
                     </footer>
@@ -77,13 +80,13 @@ export default function Skills() {
                 <div className="cards">
                     <div className="card-items">
                         <header>
-                            Software Engineer
+                            Software Engineer Intern
                         </header>
                         <section>
                             Persistent System
-                            <time>2021-2021</time>
+                            <time>Jan 2021 - July 2021</time>
                         </section>
-                        <footer>Responsible for back-end development and managing a team. </footer>
+                        <footer>Designed and Developed back-end for NGO portal application in Spring boot and MySQL. </footer>
                     </div>
                     <div className="card-items">
                         <header>
@@ -91,9 +94,9 @@ export default function Skills() {
                         </header>
                         <section>
                             Persistent System
-                            <time>2021-2021</time>
+                            <time>July 2021 - Present</time>
                         </section>
-                        <footer>Award-winning Content Marketing Agency specialize in creating and sharing engaging content.</footer>
+                        <footer>Developed the back-end for multiple projects along with managing the team of interns and software engineers. </footer>
                     </div>
                 </div>
             </div>

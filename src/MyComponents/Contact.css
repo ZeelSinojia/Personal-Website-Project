@@ -110,6 +110,7 @@
 .flat-button div {
     background-color: #1d1d1d;
     border: 1px solid #08fdd8;
+    border-radius: 5px;
     color: #08fdd8;
     padding: 15px;
     width: 100%;
@@ -123,7 +124,7 @@
     z-index: 5;
 }
 
-.social {
+.social-contact {
     color: #909096;
     margin: 0;
     padding: 0;
@@ -134,13 +135,19 @@
     align-items: center;
 }
 
-.social li {
+.social-contact li {
     text-align: center;
 }
 
-.social li a {
+.social-contact li a {
     padding: 2rem 7px;
     color: #08fdd8;
+    transition: color .3s;
 }
+
+.social-contact li a:hover {
+    color: #41a193;
+}
+
 
 
