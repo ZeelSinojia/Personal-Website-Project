@@ -1,0 +1,38 @@
+.content {
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: .3s ease-out all;
+}
+
+.text-zone span {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 100px;
+    transition: all .3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.text-zone h1 {
+    display: inline-block;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 100px;
+    transition: all .3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.text-zone h1:hover {
+    color: #08fdd8;
+}

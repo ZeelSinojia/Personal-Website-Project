@@ -1,0 +1,111 @@
+.skills {
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 13rem;
+    padding-left: 5rem;
+    padding-right: 17rem;
+    overflow: hidden;
+}
+
+.skills-text {
+    width: 50%;
+    padding-right: 5rem;
+}
+
+.skills-text header {
+    margin-bottom: 1.5rem;
+}
+
+.skills-text span {
+    font-family: 'Cabin', sans-serif;
+    color: #08fdd8;
+    font-weight: 400;
+    font-size: 5.6rem;
+    line-height: 6.7rem;
+}
+
+.skills-text p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.skills-text p a {
+    text-decoration: none;
+    color: #08fdd8;
+    transition: color .3s;
+}
+
+.skills-text p a:hover {
+    color: #41a193;
+}
+
+.skills-graphics {
+    width: 50%;
+    color: white;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart {
+    margin-bottom: 1rem;
+}
+
+.chart h2 {
+    font-size: 18px;
+}
+
+.chart footer {
+    background-color: #373737;
+    height: 2px;
+}
+
+.chart footer div {
+    height: 100%;
+    transition: width 1.3s ease-out;
+}
+
+.cards {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-items {
+    background-color: #2a2a2a;
+    width: 48%;
+    padding: 3rem;
+}
+
+.card-items header {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.card-items section {
+    font-size: 1.2rem;
+    color: #ababab;
+    margin-bottom: 1rem;
+}
+
+.card-items section time{
+    display: block;
+    font-size: 1rem;
+}
+
+.card-items footer {
+    font-size: 1rem;
+    color: #ababab;
+    line-height: 1.8rem;
+}
